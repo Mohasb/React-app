@@ -1,0 +1,25 @@
+.tarea-formulario {
+  display: flex;
+  margin: 2rem 0;
+}
+.tarea-formulario .tarea-input {
+  width: 100%;
+  background-color: white;
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 5px solid #00471b;
+  outline: none;
+}
+.tarea-formulario .tarea-boton {
+  margin: 0.1rem 0;
+  padding: 0.2rem;
+  width: auto;
+  border-radius: 0;
+  font-size: 1rem;
+  font-family: Roboto, sans-serif;
+  cursor: pointer;
+  outline: none;
+  background: #00471b;
+  color: white;
+  text-transform: capitalize;
+}/*# sourceMappingURL=formularioStyle.css.map */

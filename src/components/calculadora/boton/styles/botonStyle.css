@@ -1,0 +1,19 @@
+.boton {
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 0.5rem;
+  background-color: #1b1b32;
+  color: white;
+  cursor: pointer;
+}
+.boton:hover {
+  background-color: #5a01a7;
+}
+
+.operador {
+  background-color: green;
+}
+.operador:hover {
+  background-color: #ff6600;
+}/*# sourceMappingURL=botonStyle.css.map */

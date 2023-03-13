@@ -1,0 +1,15 @@
+ .calculadora-react {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color:#2d5170;
+    padding: 1rem;
+    h1 {
+        text-align: center;
+        font-weight: bold;
+        color: white;
+    }
+    .fila {
+        display: flex;
+        user-select: none;
+    }
+ }

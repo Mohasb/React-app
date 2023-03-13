@@ -1,0 +1,11 @@
+.boton-clear {
+    font-size: 2rem;
+    background-color: #ac0246;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 15px;
+    &:hover {
+        background-color: #ebb000;
+    }
+}

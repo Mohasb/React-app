@@ -1,0 +1,47 @@
+.tareas {
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #2d5170;
+  padding: 1rem;
+  min-height: 300px;
+}
+.tareas h1 {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+.tareas .tarea-contenedor {
+  min-height: 65px;
+  background-color: #1b1b32;
+  color: white;
+  border-radius: 7px;
+  border: 1px solid white;
+  cursor: pointer;
+  padding: 1rem;
+}
+.tareas .tarea-contenedor .tarea-texto {
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  overflow-wrap: anywhere;
+}
+.tareas .tarea-contenedor .tarea-icono {
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+}
+.tareas .tarea-contenedor:nth-child(3n+1) {
+  background-color: #1b1b32;
+}
+.tareas .tarea-contenedor:nth-child(3n+2) {
+  background-color: #2a2a40;
+}
+.tareas .tarea-contenedor:nth-child(3n+3) {
+  background-color: #3b3b4f;
+}
+.tareas .tarea-contenedor.completada {
+  background-color: #5a01a7;
+  text-decoration: line-through;
+}/*# sourceMappingURL=tareasStyle.css.map */
